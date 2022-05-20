@@ -1,0 +1,23 @@
+{
+    "name": "@juqitech/commitlint-config",
+    "version": "1.0.0",
+    "description": "juqitech config for commitlint",
+    "keywords": [
+        "commitlint",
+        "commitlint-config",
+        "juqitech"
+    ],
+    "author": "juqitech",
+    "license": "MIT",
+    "repository": {
+        "type": "git"
+    },
+    "main": "index.js",
+    "files": [
+        "index.js"
+    ],
+    "dependencies": {
+        "@commitlint/cli": "^15.0.0",
+        "@commitlint/config-conventional": "^15.0.0"
+    }
+}
