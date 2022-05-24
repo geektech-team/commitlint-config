@@ -6,10 +6,11 @@
  * Value: value to use for this rule.
  * */
 
- module.exports = {
+module.exports = {
   extends: ["@commitlint/config-conventional"],
   rules: {
-    "subject-case": [2],
+    // Type can not be empty. 类型不能为空
+    "type-empty": [2, "never"],
     "type-enum": [
       2,
       "always",
@@ -26,6 +27,9 @@
         "test", // Adds or modifies tests. 测试用例，包括单元测试、集成测试等
       ],
     ],
-    "scope-case": [2],
+    // Scope can not be empty. 域不能为空
+    "scope-empty": [2, "never"],
+    // Subject can not be empty. 主题不能为空
+    "subject-empty": [2, "never"],
   },
 };

@@ -1,13 +1,13 @@
 {
-    "name": "@juqitech/commitlint-config",
-    "version": "1.0.0",
-    "description": "juqitech config for commitlint",
+    "name": "@geektech/commitlint-config",
+    "version": "0.0.1",
+    "description": "geektech config for commitlint",
     "keywords": [
         "commitlint",
         "commitlint-config",
-        "juqitech"
+        "geektech"
     ],
-    "author": "juqitech",
+    "author": "geektech",
     "license": "MIT",
     "repository": {
         "type": "git"

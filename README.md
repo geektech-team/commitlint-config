@@ -6,6 +6,10 @@
 
 ```js
 {
-    "extends": ["@juqitech/commitlint-config"]
+    "extends": ["@geektech/commitlint-config"]
 }
 ```
+
+## Rules
+
+Consult [docs/rules](https://conventional-changelog.github.io/commitlint/#/reference-rules) for a list of available rules.
