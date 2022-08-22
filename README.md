@@ -2,6 +2,10 @@
 
 ## Usage
 
+```base
+    npm i @commitlint/cli @geektech/commitlint-config
+```
+
 在你的 commitlint.config.js，加入
 
 ```js
